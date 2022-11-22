@@ -2,6 +2,7 @@ Diario del proyecto MID-TERM
 [Link Trello]()
 
 # DIA 1 21/11/2022
+
 - Creación repositorio github
 - Organzación en trello
 - Creación de archivos del proyecto
