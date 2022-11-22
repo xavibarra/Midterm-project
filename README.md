@@ -1,5 +1,5 @@
 Diario del proyecto MID-TERM 
-[Link Trello]()
+[Link Trello](https://trello.com/invite/b/AbzxvOW1/ATTI071524da07484d371f5452d6442a9975B0E0040A/midterm-project)
 
 # DIA 1 21/11/2022
 
