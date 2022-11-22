@@ -3,8 +3,10 @@
 /* General styling */
 *{
     box-sizing: border-box;
-    margin: 0;
+    margin: 10px;
     padding: 0;
+    outline: 1px solid red;
+    
 }
 
 
@@ -15,3 +17,53 @@ body{
 img{
    width: 10%; 
 }
+/* Head */
+.head{
+     display: flex;
+     justify-content: space-between;
+    
+}
+/* logo */
+.logo-head{
+    width: 60px;
+    height: 18px;
+    background-image: url(../img/logos/circle.svg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: #333333;
+}
+/* nav-bar */
+.nav-bar{
+    
+}
+/* boton contacto */
+.contact{
+    display: none;
+}
+/* MAIN */
+/* Section 1 */
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+/* MEDIA QUERY 991PX*/
+/* @media screen and (min-width: 991px){
+    .contact{
+        display: block;
+    }
+} */
+
+/* MEDIA QUERY 767PX */
+
