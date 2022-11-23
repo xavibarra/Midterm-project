@@ -17,12 +17,12 @@ body{
     background: #E5E5E5;
 }
 
-/* Head */
-.head{
+/* Header */
+.header{
      display: flex;
      justify-content: space-between;
      margin: 10px;
-    
+     align-items: center;  
 }
 /* logo */
 .logo-head{
@@ -40,8 +40,9 @@ body{
 }
 /* nav-bar */
 .nav-bar{
-    
+    display: none;
 }
+
 /* boton contacto */
 .contact{
     display: none;
@@ -183,7 +184,7 @@ body{
 }
 /* parte inferior projects */
 .container-txt{
-    height: 190px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -266,16 +267,172 @@ body{
     font-size: 0.85rem;
 }
 
-//
+/* section 5 */
+.section5{
+    margin-top: 40px;    
+}
+/* titulo seccion */
+.section5 h1{
+    font-size: 1.8rem;
+    text-align: center;
+}
+/* contenido seccion */
+.section5-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+/* cajas */
+.section5-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin:0px 30px;
+}
+/* imagenes iconos  */
+.section5-img1{
+    width: 80px;
+    height: 80px;
+    margin: 40px 0 0 40px;
+    border-radius: 50%;
+    background-color: #ecf7ff;
+    background-image: url(../img/services-section/icons/1.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.section5-img2{
+    width: 80px;
+    height: 80px;
+    margin: 40px 0 0 40px;
+    border-radius: 50%;
+    background-color: #ecf7ff;
+    background-image: url(../img/services-section/icons/2.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.section5-img3{
+    width: 80px;
+    height: 80px;
+    margin: 40px 0 0 40px;
+    border-radius: 50%;
+    background-color: #ecf7ff;
+    background-image: url(../img/services-section/icons/3.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    
+}
+
+/* section 6 */
+.section6{
+    display: flex;
+    background-color: #ffc600;
+    text-align: center;
+}
+.section6 h1{
+    font-size: 1.8rem;
+    margin-top: 100px;
+    color:#292E47;
+}
+.section6-subtitle{
+    color: #292E47;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+/* form */
+.section6-email{
+    display: flex;
+    flex-direction: column;
+}
+/* email */
+.section6-enter-email{
+    position: relative;
+}
+.section6-input-email{
+    height: 80px;
+    width: 240px;
+    padding: 15px 70px;
+    display: flex;
+    border: 0;
+}
+.email-img{
+    position: absolute;
+    left: 8%;
+    top: 27%;
+    right: auto;
+    bottom: auto;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/newsletter/icon/mail.svg);
+    background-position: 50% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.section6-submit{
+    padding: 15px 30px;
+    background-color: #072ac8;
+    font-size: 1.2rem;
+    border: 0;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    height: 80px;
+    width: 240px;
+}
+.section6-succes{
+    display: none;
+}
+.section6-fail{
+    display: none;
+}
+
+footer{
+    margin-top: 60px;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-logo{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+    background-image: url(../img/logos/circle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer-info address{
+    width: 240px;
+    line-height: 150%;
+    color: #6B708D;
+    margin-bottom:25px;   
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    margin-bottom: 100px; 
+}
+.footer-links a{
+    text-decoration: none;
+    color: blue;    
+}
 /* MEDIA QUERY 991PX*/
-@media screen and (min-width: 991px){
+/* @media screen and (min-width: 991px){
     .contact{
         display: block;
     }
     .section1-img1{
         display: block;
     }
-}
+} */
 
-/* MEDIA QUERY 767PX */
+/* MEDIA QUERY 768PX */
 
