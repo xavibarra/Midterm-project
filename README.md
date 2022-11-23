@@ -6,7 +6,7 @@ Diario del proyecto MID-TERM
 - Creación repositorio github
 - Organzación en trello
 - Creación de archivos del proyecto
-- Estructura HTML
+- Estructura HTML home page
 - Código completo HTML home page
 
 # DIA 2 22/11/2022
@@ -24,7 +24,10 @@ Diario del proyecto MID-TERM
 - Media query min 480px home page
 - Media query min 768px home page
 - Media query min 992px home page
-
+- Estructura HTML contact
+- Código HTML contact
+- Código CSS contact
+- Media query min 768px contact
 
 # DIA 4 24/11/2022
 
