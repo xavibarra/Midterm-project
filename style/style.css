@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* section 4 */
 .section4{
-    height: 450px;
+    height: 500px;
     margin: 0;
     position: relative;
     background-image: url(../img/testimonial-section/orbit.png);
@@ -248,7 +248,8 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 50px;
+    position: relative;
+    top: 90px;
 }
 .section4-user-image{
     width: 50px;
@@ -259,6 +260,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: 10px;
+    position: relative;
 }
 .section4-name{
     color: #A2D6F9;
@@ -269,6 +271,19 @@ h1, h2, h3, h4, h5, h6 {
     color:#F4F6FC;
     font-size: 0.85rem;
 }
+.section4-img1{
+    display: none; 
+}
+.section4-img2{
+    display: none; 
+}
+.section4-img3{
+    display: none; 
+}
+.section4-img4{
+    display: none;  
+}
+
 
 /* section 5 */
 .section5{
@@ -447,6 +462,9 @@ footer{
         font-size: 40px;
         width: 90%;
     }
+    .section4-user{
+        top: 130px;
+    }
     /* titulo section 5 */
     .section5 h1{
         font-size: 2.5rem;
@@ -507,7 +525,7 @@ footer{
         grid-column-gap: 30px;
         grid-row-gap: 0px;
     }
-    /* section 3 */
+    /* section 4 */
     .section4{
      position: relative;
      height: 500px;
@@ -515,30 +533,37 @@ footer{
     .section4-content h3{
         width: 45%;
     }
+    .section4-user{
+        top: 110px;
+    }
 
     .section4-img1{
+        display: block;
         position: relative;
         width: 100px;
-        top: -42vh;
-        left: 12vh;
+        top: -35vh;
+        left: -30vh;
     }
     .section4-img2{
+        display: block;
         position: relative;
         width: 100px;
-        top: -16vh;
-        left: 82vh;
+        top: -8vh;
+        left: 30vh;
     }
     .section4-img3{
+        display: block;
         position: relative;
         width: 100px;
-        top: -29vh;
-        left: 12vh;
+        top: -20vh;
+        left: -30vh;
     }
     .section4-img4{
+        display: block;
         position: relative;
         width: 100px;
-        top: -82vh;
-        left: 82vh;   
+        top: -73vh;
+        left: 30vh;   
     }
 
     /* section 5 */
