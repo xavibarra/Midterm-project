@@ -631,9 +631,12 @@ footer{
     /* footer */
     footer{
         display: flex;
+        margin-top: 170px;
+        margin-bottom: 90px;
     }
     .footer-info{
         text-align: left;
+        margin-left: 30px;
     }
     .footer-logo{
         margin: 0 0 30px 0;
@@ -645,6 +648,9 @@ footer{
 }
 /* MEDIA QUERY 992PX*/
 @media screen and (min-width: 992px){
+    .total-container{
+        max-width: 1335px;
+    }
    /* header */
     /* .contact{
         display: block;
@@ -682,6 +688,7 @@ footer{
         height: 43vw;
         margin-left: 0;
         margin-right: 10%;
+        max-height:590px ;
     }
     .section1-img1{
         left:-10%;
