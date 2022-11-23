@@ -544,7 +544,7 @@ footer{
         width: 45%;
     }
     .section4-user{
-        top: 150px;
+        top: 110px;
     }
 
     .section4-img1{
@@ -558,14 +558,14 @@ footer{
         display: block;
         position: relative;
         width: 100px;
-        top: -10%;
+        top: -15%;
         left: 27%;
     }
     .section4-img3{
         display: block;
         position: relative;
         width: 100px;
-        top: -29%;
+        top: -36%;
         left: -27%;
     }
     .section4-img4{
