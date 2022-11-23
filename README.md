@@ -11,7 +11,20 @@ Diario del proyecto MID-TERM
 
 # DIA 2 22/11/2022
 
+- Código CSS section 1 home page
+- Código CSS section 2 home page
+- Código CSS section 3 home page
+- Código CSS section 4 home page
+- Código CSS section 5 home page
+- Código CSS section 6 home page
+- Código CSS footer
+
 # DIA 3 23/11/2022
+
+- Media query min 480px home page
+- Media query min 768px home page
+- Media query min 992px home page
+
 
 # DIA 4 24/11/2022
 
