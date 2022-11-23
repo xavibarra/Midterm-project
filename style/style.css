@@ -16,6 +16,9 @@ body{
     color: #1a1a1a;
     background: #E5E5E5;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
 
 /* Header */
 .header{
@@ -424,6 +427,184 @@ footer{
     text-decoration: none;
     color: blue;    
 }
+/* MEDIA QUERY 480PX */
+@media screen and (min-width: 480px){
+    /* section1 */
+    /* titulo */
+    .section1-part1 h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    /* botones */
+    .section1-botones{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: row; 
+    }
+    /* titulo section 4 */
+    .section4-content h3{
+        font-size: 40px;
+        width: 90%;
+    }
+    /* titulo section 5 */
+    .section5 h1{
+        font-size: 2.5rem;
+    }
+    /* formulario section 6 */
+    .section6-submit{
+        width: 400px;
+    }
+    .section6-input-email{
+        width: 400px;
+    }
+}
+/* MEDIA QUERY 768PX */
+@media screen and (min-width: 768px){
+    /* section 1 */
+    .section1-part1 h1{
+        font-size: 3.5rem;
+        line-height: 4.5rem;
+    }
+    .section1-part1 p{
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+    }
+    /* section 1 part 2 */
+    .section1-img1{
+        display: block;
+        position: absolute;
+        left:0;
+        top: 60%;
+        right: auto;
+        bottom: auto;
+        max-width: 280px;
+    }
+    .section1-img2{
+        width: 80%;
+    }
+    .section1-img3{
+        display: block;
+        position: absolute;
+        left: 70%;
+        top: 115%;
+        right: auto;
+        bottom: auto;
+        max-width: 280px;
+    }
+    /* section 2 */
+    .section3 {
+        display: block;
+    }
+    .section3 h2 {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 0px;
+    }
+    /* section 3 */
+    .section4{
+     position: relative;
+     height: 500px;
+    }
+    .section4-content h3{
+        width: 45%;
+    }
+
+    .section4-img1{
+        position: relative;
+        width: 100px;
+        top: -42vh;
+        left: 12vh;
+    }
+    .section4-img2{
+        position: relative;
+        width: 100px;
+        top: -16vh;
+        left: 82vh;
+    }
+    .section4-img3{
+        position: relative;
+        width: 100px;
+        top: -29vh;
+        left: 12vh;
+    }
+    .section4-img4{
+        position: relative;
+        width: 100px;
+        top: -82vh;
+        left: 82vh;   
+    }
+
+    /* section 5 */
+    .section5-content{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 35px;
+        grid-template-rows: 1fr;
+        margin: 50px 25px 70px 25px;
+    }
+    .section5-box{
+        margin: 0;
+    }
+    .section5 h1{
+        text-align: left;
+        margin-left: 25px;
+    }
+        /* section 6 */
+    .section6 h1{
+        font-size: 2.5rem;
+        margin-top: 150px;
+    }
+
+    /* form */
+    form{
+        display: flex;
+
+    }
+    /* email */
+
+    .section6-input-email{
+        width: 380px;
+    }
+    .section6-email{
+        margin-bottom: 130px;
+        width: 700px;
+    }
+    .section6-submit{
+        margin: 0 0 0 20px;
+        width: 180px;
+    }
+    .section6-input-email{
+        font-size: 1.3rem;
+    }
+    .section6-succes{
+        display: none;
+    }
+    .section6-fail{
+        display: none;
+    }
+    /* footer */
+    footer{
+        display: flex;
+    }
+    .footer-info{
+        text-align: left;
+    }
+    .footer-logo{
+        margin: 0 0 30px 0;
+    }
+    .footer-links{
+        
+        grid-column-gap: 50px;
+        grid-row-gap: 50px
+    }
+}
 /* MEDIA QUERY 991PX*/
 /* @media screen and (min-width: 991px){
     .contact{
@@ -434,5 +615,5 @@ footer{
     }
 } */
 
-/* MEDIA QUERY 768PX */
+
 
