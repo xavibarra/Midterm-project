@@ -441,8 +441,6 @@ footer{
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     margin-bottom: 100px; 
-    margin-left: 10%;
-    margin-right: 10%;
 }
 .footer-links a{
     text-decoration: none;
