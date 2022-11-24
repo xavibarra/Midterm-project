@@ -23,9 +23,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     margin-top: 10px;
   }
-header{
 
-}
   header > div {
     width: 100%;
   
@@ -724,7 +722,7 @@ footer{
     .total-container{
         max-width: 1335px;
     }
-   /* header */
+    /* header */
    .logo{
     margin-left: 30px;
    }
@@ -766,9 +764,7 @@ footer{
   }  
   .nav-link{
     margin: 0;
-  
    }
-    
     /* section 1 */
     .section1{
         flex-direction: row;

@@ -18,6 +18,112 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+/* Header */
+.circle-logo {
+    width: 100px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  header > div {
+    width: 100%;
+  
+  }
+  
+  nav {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #C8C8C8;
+  }
+  nav label, #hamburger {
+    display: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    height: 100%;
+  }
+  .nav-link:hover{
+    color:#072ac8 ;
+  }
+  .link-blue{
+    color: #0082f3;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  nav a {
+    color: #1a1a1a;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  /* Show Hamburger */
+  nav label {
+    display: inline-block;
+    color: rgb(25, 25, 25);
+    font-style: normal;
+    font-size: 2em;
+    padding: 20px;
+    position: absolute;
+    top: -4px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  
+  /* Break down menu items into vertical */
+  
+  .nav-link{
+    font-size: 1.2em;
+    text-align: left;
+    display: block;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #6b708d;
+  
+  }
+  .nav-link:hover{
+    color:#072ac8 ;
+  }
+  .link-blue{
+    color: #0082f3;
+  }
+  
+  
+  /* Toggle show/hide menu on checkbox click */
+  #page-nav ul {
+    display: none;
+  }
+  
+  #page-nav input[type='checkbox']:checked ~ ul {
+    animation-duration: 0.5s;
+    animation-name: slidein;
+    display: block;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  .contact{
+    display: none;
+  }
 /* main */
 main{
     padding: 0 5%;
@@ -226,4 +332,52 @@ footer{
         grid-column-gap: 50px;
         grid-row-gap: 50px
     }
+}
+/* media query 992px */
+@media screen and (min-width: 992px){
+    body{
+        max-width: 1335px;
+    }
+    .logo{
+        margin-left: 30px;
+       }
+       .contact{
+        display: block;
+        margin-right: 20px;
+        background: #072ac8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 120px;
+        margin-right: 60px;
+      }
+      .contact:hover{
+        background-color: #0b1957;
+      }
+      .contact a{
+        text-decoration: none;
+        color: white;
+      }
+      header > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row;
+      }
+      nav {
+        width: 400px;
+        background: none;
+        margin: 0;
+      }
+      #page-nav ul {
+        display: flex;
+      }
+      /* Show Hamburger */
+      nav label {
+        display: none;
+      }  
+      .nav-link{
+        margin: 0;
+       }
 }
