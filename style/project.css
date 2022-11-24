@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0; 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+    background: #E5E5E5;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+/* section 1 */
+.section1-projects{
+    margin: 30px;
+}
+.section1-projects h1{
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+.subtitle1{
+    margin-bottom: 10px;
+    color: #6b708d;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.information{
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+.frontpage-project{
+    height: 444px;
+    background-image: url(../img/projects-section/1.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.text-project{
+    margin-top: 80px;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+    text-align: justify;
+}
+
+/* projects */
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.section3 h2{
+    color:#292E47;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    width: 100%;
+}
+.project{
+    background: white;
+    width: 100%;
+    margin: 10px auto;
+
+}
+
+/* projects images */
+
+.container-img{
+    width: 100%;
+    height: 240px;
+    margin: auto;
+}
+.section3-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover; 
+}
+/* parte inferior projects */
+.container-txt{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project-title{
+    margin: 30px 30px 20px;
+    color: #292e47;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.project-txt{
+    margin: 0px 30px 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.container-txt a{
+    text-decoration: none;
+    color: #072ac8;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 30px;
+}
+/* email section */
+.section6{
+    display: flex;
+    background-color: #ffc600;
+    text-align: center;
+}
+.section6 h1{
+    font-size: 1.8rem;
+    margin-top: 100px;
+    color:#292E47;
+}
+.section6-subtitle{
+    color: #292E47;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+/* form */
+.section6-email{
+    display: flex;
+    flex-direction: column;
+}
+/* email */
+.section6-enter-email{
+    position: relative;
+}
+.section6-input-email{
+    height: 80px;
+    width: 240px;
+    padding: 15px 70px;
+    display: flex;
+    border: 0;
+}
+.email-img{
+    position: absolute;
+    left: 8%;
+    top: 27%;
+    right: auto;
+    bottom: auto;
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/newsletter/icon/mail.svg);
+    background-position: 50% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.section6-submit{
+    padding: 15px 30px;
+    background-color: #072ac8;
+    font-size: 1.2rem;
+    border: 0;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    height: 80px;
+    width: 240px;
+}
+.section6-succes{
+    display: none;
+}
+.section6-fail{
+    display: none;
+}
+/* footer */
+footer{
+    margin-top: 60px;
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-logo{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+    background-image: url(../img/logos/circle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footer-info address{
+    width: 240px;
+    line-height: 150%;
+    color: #6B708D;
+    margin-bottom:25px;   
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    margin-bottom: 100px; 
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: start;
+}
+.footer-links a{
+    text-decoration: none;
+    color: blue;   
+    text-align: center; 
+}
+
+/* MEDIA QUERY 480PX */
+@media screen and (min-width: 480px){
+    /* formulario email*/
+    .section6-submit{
+        width: 400px;
+    }
+    .section6-input-email{
+        width: 400px;
+    }
+}
+/* MEDIA QUERY 768PX */
+@media screen and (min-width: 768px){
+    /* section 1 */
+    .section1-projects h1{
+        font-size: 3.5rem;
+    }
+    .subtitle{
+        display: flex;
+        margin-bottom: 40px;
+    }
+    .subtitle1{
+        margin-left: 0;
+    }
+    .information{
+        margin-right: 0;
+    }
+    /* section 2 */
+    .section3 {
+        display: block;
+    }
+    .section3 h2 {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 0px;
+    }
+        /* section 3 */
+        .section6 h1{
+            font-size: 2.5rem;
+            margin-top: 150px;
+        }
+        /* form */
+        form{
+            display: flex;
+        }
+        /* email */
+        .section6-input-email{
+            width: 380px;
+        }
+        .section6-email{
+            margin-bottom: 130px;
+            width: 700px;
+        }
+        .section6-submit{
+            margin: 0 0 0 20px;
+            width: 180px;
+        }
+        .section6-input-email{
+            font-size: 1.3rem;
+        }
+        /* footer */
+    footer{
+        display: flex;
+        margin-top: 70px;
+        margin-bottom: 90px;
+    }
+    .footer-info{
+        text-align: left;
+        margin-left: 30px;
+    }
+    .footer-logo{
+        margin: 0 0 30px 0;
+    }
+    .footer-links{
+        grid-column-gap: 50px;
+        grid-row-gap: 30px
+    }
+}
+@media screen and (min-width: 992px){
+    body{
+        max-width: 1335px;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+    }
+}
