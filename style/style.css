@@ -696,8 +696,24 @@ footer{
     .section6-succes{
         display: none;
     }
+    .message-form-succes-active{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        height: 40px;
+        background-color: rgba(11, 130, 11, 0.248);
+    }
     .section6-fail{
         display: none;
+    }
+    .message-form-fail-active{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        height: 40px;
+        background-color: rgba(201, 39, 60, 0.248);
     }
     /* footer */
     footer{
