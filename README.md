@@ -28,7 +28,18 @@ Diario del proyecto MID-TERM
 - Código HTML contact
 - Código CSS contact
 - Media query min 768px contact
+- Código HTML project
+- Código CSS project
+- Media query project
 
 # DIA 4 24/11/2022
 
+- Menú "hamburguesa"
+- JavaScript contact
+- JavaScript projects page
+
 # DIA 5 25/11/2022
+
+- JavaScript home page
+- Repaso que todo este correcto
+- Presentación
