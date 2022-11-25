@@ -241,8 +241,24 @@ form{
 .message-form-succes{
     display: none;
 }
+.message-form-succes-active{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  height: 40px;
+  background-color: rgba(11, 130, 11, 0.248);
+}
 .message-form-fail{
     display: none;
+}
+.message-form-fail-active{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  height: 40px;
+  background-color: rgba(201, 39, 60, 0.248);
 }
 /* footer */
 footer{
@@ -314,6 +330,9 @@ footer{
     }
     .boton{
         grid-area: 4 / 1 / 5 / 3; 
+    }
+    .border{
+      outline: 1px red solid;
     }
     /* footer */
     footer{

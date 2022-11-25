@@ -41,44 +41,44 @@
             <!-- titulo -->
             <h1>Contact Us</h1>
             <div class="container">
-                <form action="">
+                <form id="form">
                     <!-- Full name -->
                     <div class="name">
                         <!-- text -->
                         <label for="name">Full Name *</label>
                         <!-- enter name -->
-                        <input type="text" placeholder="Enter your full name">
+                        <input type="text" placeholder="Enter your full name" id="name">
                     </div>
                     <!-- Email -->
                     <div class="email">
                         <!-- text -->
                         <label for="name-2">Email</label>
                         <!-- enter email -->
-                        <input type="text" placeholder="Enter your email">
+                        <input type="email" placeholder="Enter your email" id="email">
                     </div>
                     <!-- phone -->
                     <div class="phone">
                         <!-- text -->
                         <label for="name-3">Phone</label>
                         <!-- enter phone -->
-                        <input type="tel" placeholder="Enter your phone">
+                        <input type="number" placeholder="Enter your phone" id="phone">
                     </div>
                     <!-- Message -->
                     <div class="message">
                         <!-- text -->
                         <label for="field">Message *</label>
                         <!-- enter message -->
-                        <textarea name="field" id="field" placeholder="Write your message here..."></textarea>
+                        <textarea name="field" id="message" placeholder="Write your message here..."></textarea>
                     </div>
                     <input type="submit" value="Submit" data-wait="Please wait..." class="boton">
                 </form>
                 <!-- messages form -->
-                <div class="message-form-succes">
+                <div class="message-form-succes" id="succes">
                     <p>
                         Thank you! Your submission has been received!
                     </p>
                 </div>
-                <div class="message-form-fail">
+                <div class="message-form-fail" id="fail">
                     <p>
                         Oops! Something went wrong while submitting the form.
                     </p>
@@ -107,5 +107,6 @@
             <a href="#">Privacy Policy</a>
         </div>
     </footer>
+    <script src="../script/form.js"></script>
 </body>
 </html>
